@@ -1,146 +1,143 @@
-# Awesome AI Services & Tools
-A curated, categorized list of AI-powered tools across QA, coding, content, video, audio, design, productivity, and more — with free/limited/paid status noted.
+# Awesome AI Tools 🤖✨
 
-- <strong>Table of Contents</strong>
-  - [QA & Testing](#qa--testing)
-  - [Coding Assistants](#coding-assistants)
-  - [Writing & Content Creation](#writing--content-creation)
-  - [Text to MP3 / Speech](#text-to-mp3--speech)
-  - [AI Video Creation](#ai-video-creation)
-  - [Design & Creativity](#design--creativity)
-  - [Productivity & Automation](#productivity--automation)
-  - [Other Useful Tools](#other-useful-tools)
-  - [License](#license)
-  - [Contributing](#contributing)
+Welcome to **Awesome AI Tools**, a curated list of powerful AI tools designed for various tasks such as quality assurance, coding, writing, video, audio, design, and productivity. This repository organizes tools by category and marks them as free or paid, making it easy for testers, developers, and content creators to find what they need.
 
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/chzain97/awesome-ai-tools/releases)
 
-## QA & Testing
+## Table of Contents
 
-| Tool            | Use Case                               | Free Plan | Link                                |
-|-----------------|----------------------------------------|-----------|-------------------------------------|
-| ChatGPT         | Bug analysis, test case generation     | ✅ Free       | [chat.openai.com](https://chat.openai.com) |
-| Claude          | Test documentation refinement          | ✅ Free       | [claude.ai](https://claude.ai) |
-| Gemini          | Test ideas, reports, summaries         | ✅ Free        | [gemini.google.com](https://gemini.google.com) |
-| Testim          | AI-powered test automation             | ⚠️ Limited| [testim.io](https://www.testim.io) |
-| ReTest          | Smart regression testing               | ✅ Free       | [retest.de](https://retest.de) |
-| Functionize     | Autonomous functional testing          | ❌ Paid       | [functionize.com](https://www.functionize.com) |
+- [Introduction](#introduction)
+- [Categories](#categories)
+- [Tools List](#tools-list)
+- [Contribution](#contribution)
+- [License](#license)
+- [Contact](#contact)
 
+## Introduction
 
-## Coding Assistants
+In today's digital landscape, artificial intelligence plays a crucial role in enhancing productivity and efficiency. This repository aims to provide a comprehensive list of AI tools that cater to different needs. Whether you're a developer looking for automation tools, a writer seeking assistance in crafting content, or a designer wanting to enhance your creative process, you will find valuable resources here.
 
-| Tool             | Description                        | Free Plan | Link                                |
-|------------------|------------------------------------|-----------|-------------------------------------|
-| GitHub Copilot   | IDE assistant                      | ❌ Paid       | [github.com/features/copilot](https://github.com/features/copilot) |
-| CodeWhisperer     | Amazon dev assistant              | ✅ Free       | [aws.amazon.com/codewhisperer](https://aws.amazon.com/codewhisperer/) |
-| Cursor           | Full AI coding IDE                 | ⚠️ Limited| [cursor.so](https://www.cursor.so) |
-| Codium AI        | AI code analysis/test generation   | ✅ Free       | [codium.ai](https://www.codium.ai) |
-| Tabnine          | Code completion engine             | ⚠️ Limited| [tabnine.com](https://www.tabnine.com) |
+Feel free to explore the tools listed in this repository and visit the [Releases section](https://github.com/chzain97/awesome-ai-tools/releases) for the latest updates and downloads.
 
+## Categories
 
-## Writing & Content Creation
+The tools in this repository are categorized as follows:
 
-| Tool           | Use Case                               | Free Plan | Link                                |
-|----------------|----------------------------------------|-----------|-------------------------------------|
-| ChatGPT        | Blog posts, technical writing          | ✅ Free       | [chat.openai.com](https://chat.openai.com) |
-| Jasper         | Long-form marketing content            | ⚠️ Limited| [jasper.ai](https://www.jasper.ai) |
-| Copy.ai        | Marketing & email copy                 | ✅ Free       | [copy.ai](https://www.copy.ai) |
-| Writesonic     | SEO blog writing, ads                  | ✅ Free       | [writesonic.com](https://writesonic.com) |
-| Notion AI      | Project notes, docs                    | ⚠️ Limited| [notion.so](https://www.notion.so/product/ai) |
-| Rytr           | Quick short-form content               | ✅ Free       | [rytr.me](https://rytr.me) |
+- **Quality Assurance**: Tools for testing and ensuring software quality.
+- **Coding**: Tools that assist in coding and software development.
+- **Writing**: Tools for content creation, editing, and proofreading.
+- **Video**: Tools for video editing and production.
+- **Audio**: Tools for audio editing and enhancement.
+- **Design**: Tools that aid in graphic design and creativity.
+- **Productivity**: Tools that help improve workflow and efficiency.
 
+Each category contains a variety of tools, both free and paid, to suit different needs and budgets.
 
-## Text to MP3 / Speech
+## Tools List
 
-| Tool             | Use Case                              | Free Plan | Link                                 |
-|------------------|----------------------------------------|-----------|--------------------------------------|
-| ElevenLabs       | Realistic AI voices                    | ⚠️ Limited| [elevenlabs.io](https://www.elevenlabs.io) |
-| Play.ht          | TTS for articles and content           | ⚠️ Limited| [play.ht](https://www.play.ht) |
-| LOVO AI          | Voiceovers for media, ads              | ⚠️ Limited| [lovo.ai](https://www.lovo.ai) |
-| Speechify        | Productivity reading assistant         | ⚠️ Limited| [speechify.com](https://speechify.com) |
-| Murf.ai          | Narration and voiceovers               | ❌ Paid       | [murf.ai](https://www.murf.ai) |
-| Replica Studios  | Voiceovers for games & characters      | ⚠️ Limited| [replicastudios.com](https://www.replicastudios.com) |
-| Narakeet         | Text to MP3 and video voiceover        | ✅ Free       | [narakeet.com](https://www.narakeet.com) |
+### Quality Assurance Tools
 
+1. **TestComplete**
+   - **Description**: An automated UI testing tool that supports various platforms.
+   - **Pricing**: Paid
+   - **Link**: [TestComplete](https://www.smartbear.com/product/testcomplete/overview/)
 
-## AI Video Creation
+2. **Selenium**
+   - **Description**: A widely-used open-source framework for web application testing.
+   - **Pricing**: Free
+   - **Link**: [Selenium](https://www.selenium.dev/)
 
-| Tool           | Use Case                            | Free Plan | Link                                 |
-|----------------|-------------------------------------|-----------|--------------------------------------|
-| Synthesia      | AI avatar video                     | ❌ Paid       | [synthesia.io](https://www.synthesia.io) |
-| Pictory        | Blog/article to video               | ⚠️ Limited| [pictory.ai](https://pictory.ai) |
-| Runway ML      | AI video editing, motion tracking   | ⚠️ Limited| [runwayml.com](https://runwayml.com) |
-| HeyGen         | Realistic talking avatars           | ⚠️ Limited| [heygen.com](https://www.heygen.com) |
-| InVideo        | Social videos, ads                  | ✅ Free       | [invideo.io](https://invideo.io) |
-| Descript       | Edit audio + video with transcript  | ⚠️ Limited| [descript.com](https://www.descript.com) |
-| Lumen5         | Blog to video content               | ⚠️ Limited| [lumen5.com](https://lumen5.com) |
-| Animoto        | AI slideshow & promo video maker    | ⚠️ Limited| [animoto.com](https://animoto.com) |
+### Coding Tools
 
+1. **GitHub Copilot**
+   - **Description**: An AI-powered code completion tool that helps developers write code faster.
+   - **Pricing**: Paid
+   - **Link**: [GitHub Copilot](https://github.com/features/copilot)
 
-## Design & Creativity
+2. **TabNine**
+   - **Description**: An AI code completion tool that integrates with popular IDEs.
+   - **Pricing**: Free and Paid versions available.
+   - **Link**: [TabNine](https://www.tabnine.com/)
 
-| Tool           | Use Case                          | Free Plan | Link                             |
-|----------------|-----------------------------------|-----------|----------------------------------|
-| DALL·E         | AI image generation               | ⚠️ Limited| [openai.com/dall-e](https://openai.com/dall-e) |
-| Midjourney     | Artistic image creation           | ❌ Paid       | [midjourney.com](https://www.midjourney.com) |
-| Canva AI       | Magic tools for editing & writing | ✅ Free        | [canva.com/ai](https://www.canva.com/ai/) |
-| Firefly (Adobe)| Photoshop generative fill         | ⚠️ Limited| [adobe.com](https://www.adobe.com/sensei/generative-ai.html) |
-| Leonardo AI    | AI concept art & game visuals     | ⚠️ Limited| [leonardo.ai](https://leonardo.ai) |
-| Remove.bg      | Background remover using AI       | ✅ Free       | [remove.bg](https://www.remove.bg) |
+### Writing Tools
 
+1. **Grammarly**
+   - **Description**: A writing assistant that helps with grammar, spelling, and style.
+   - **Pricing**: Free and Paid versions available.
+   - **Link**: [Grammarly](https://www.grammarly.com/)
 
-## Productivity & Automation
+2. **Jasper**
+   - **Description**: An AI writing tool that generates content for blogs, ads, and more.
+   - **Pricing**: Paid
+   - **Link**: [Jasper](https://www.jasper.ai/)
 
-| Tool           | Use Case                          | Free Plan | Link                             |
-|----------------|-----------------------------------|-----------|----------------------------------|
-| Zapier AI      | AI-driven automation               | ⚠️ Limited| [zapier.com/ai](https://zapier.com/ai) |
-| Notion AI      | Docs, notes, project summaries     | ⚠️ Limited| [notion.so](https://www.notion.so/product/ai) |
-| Rewind AI      | AI-powered memory for Mac          | ❌ Paid       | [rewind.ai](https://www.rewind.ai) |
-| Trello + Butler AI | Workflow automation            | ✅ Free       | [trello.com](https://trello.com) |
-| Magical        | Autofill, quick responses          | ✅ Free       | [magical.ai](https://www.magical.ai) |
-| Tactiq         | AI meeting transcription (Zoom, GMeet) | ✅ Free | [tactiq.io](https://tactiq.io) |
+### Video Tools
 
+1. **Adobe Premiere Pro**
+   - **Description**: A professional video editing software with advanced features.
+   - **Pricing**: Paid
+   - **Link**: [Adobe Premiere Pro](https://www.adobe.com/products/premiere.html)
 
-## Other Useful Tools
+2. **InVideo**
+   - **Description**: An online video editing tool that simplifies video creation.
+   - **Pricing**: Free and Paid versions available.
+   - **Link**: [InVideo](https://invideo.io/)
 
-| Tool            | Use Case                         | Free Plan | Link                        |
-|-----------------|----------------------------------|-----------|-----------------------------|
-| Perplexity AI   | AI-powered factual search        | ✅ Free       | [perplexity.ai](https://www.perplexity.ai) |
-| Phind           | Dev-focused chatbot search       | ✅ Free       | [phind.com](https://www.phind.com) |
-| You.com         | AI-driven private search         | ✅ Free       | [you.com](https://you.com) |
-| Tome            | AI slide deck creation           | ✅ Free       | [tome.app](https://tome.app) |
-| Gamma App       | Presentation + docs generator    | ✅ Free       | [gamma.app](https://gamma.app) |
-| Adept AI        | Multi-action assistant           | ❌ Paid       | [adept.ai](https://www.adept.ai) |
+### Audio Tools
 
+1. **Audacity**
+   - **Description**: A free, open-source audio editing software.
+   - **Pricing**: Free
+   - **Link**: [Audacity](https://www.audacityteam.org/)
 
+2. **Descript**
+   - **Description**: An audio and video editing tool that uses AI for transcription and editing.
+   - **Pricing**: Paid
+   - **Link**: [Descript](https://www.descript.com/)
 
-## Contributing
+### Design Tools
 
-Have an awesome AI tool to suggest?  
-Feel free to open an issue or submit a pull request!  
-Please ensure it fits a relevant category and includes:  
-- A short description  
-- Accurate free/paid status  
-- Official website link  
+1. **Canva**
+   - **Description**: A graphic design platform that allows users to create social media graphics, presentations, and more.
+   - **Pricing**: Free and Paid versions available.
+   - **Link**: [Canva](https://www.canva.com/)
 
+2. **Figma**
+   - **Description**: A web-based UI/UX design tool that allows for real-time collaboration.
+   - **Pricing**: Free and Paid versions available.
+   - **Link**: [Figma](https://www.figma.com/)
+
+### Productivity Tools
+
+1. **Notion**
+   - **Description**: An all-in-one workspace for notes, tasks, and collaboration.
+   - **Pricing**: Free and Paid versions available.
+   - **Link**: [Notion](https://www.notion.so/)
+
+2. **Trello**
+   - **Description**: A project management tool that uses boards and cards to organize tasks.
+   - **Pricing**: Free and Paid versions available.
+   - **Link**: [Trello](https://trello.com/)
+
+## Contribution
+
+Contributions are welcome! If you know of any AI tools that should be included in this list, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Add your tool to the appropriate category.
+4. Submit a pull request.
+
+Please ensure that your submissions are clear and concise. Include a brief description, pricing information, and a link to the tool.
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/AlexKuchkov/awesome-ai-tools?tab=MIT-1-ov-file) 
-</br>
-You're free to use, share, and adapt it — just link back to this repo if you do.  
+This repository is licensed under the MIT License. Feel free to use the tools listed here and contribute to the project.
 
+## Contact
 
-## Disclaimer
+For any questions or suggestions, feel free to reach out via GitHub or email. Your feedback is valuable and helps improve this repository.
 
-This list is maintained for informational purposes only.  
-Tool descriptions, pricing, and availability may change over time.  
-Always review each tool's official site for the latest terms and features.
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/chzain97/awesome-ai-tools/releases)
 
-
-## Credits
-
-Curated with ❤️ by Alex  
-Inspired by the awesome open-source and QA/testing communities.
-
-
-
+Explore, contribute, and enjoy the world of AI tools!
